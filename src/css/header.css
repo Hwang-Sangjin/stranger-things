@@ -1,0 +1,109 @@
+.st {
+    margin: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 8rem;
+    font-family: indira_kregular;
+    font-weight: 800;
+    color: #1c0502;
+    letter-spacing: -.5rem;
+    animation: popShadow 5s infinite;
+}
+
+.st-b--full{
+    background-color: #1c0502;
+    width: 49rem;
+    height: .5rem;
+    margin: auto;
+    margin-bottom: -.5rem;
+    animation: divShadow 5s infinite;
+}
+.st-bar-f{
+    display: inline-block;
+    background-color: #1c0502;
+    width: 7rem;
+    height: .5rem;
+    animation: divShadow 5s infinite;
+    vertical-align:middle;
+    margin-left: 0rem;
+    margin-top: -4rem;
+}
+.st-bar-s{
+    display: inline-block;
+    background-color: #1c0502;
+    width: 7rem;
+    height: .5rem;
+    animation: divShadow 5s infinite;
+    vertical-align:middle;
+    margin-left: 2rem;
+    margin-top: -4rem;
+}
+
+
+body {
+	background: #0c0201;
+}
+.st-bottom{
+    margin-top: -6.5rem;
+    margin-left: -1rem;
+}
+
+p{
+    margin: 0rem;
+}
+span{
+    display: inline-block;
+}
+.sf-x{
+    height: 14rem;
+}
+
+.sf--s{
+    font-size: 12rem;
+    vertical-align: middle;
+    height: 12rem;
+    margin-top: -3rem;
+}
+.sf--r-2{
+    font-size: 12rem;
+    vertical-align: middle;
+    height: 12rem;
+    margin-top: -3rem;
+}
+
+@keyframes popShadow {
+    0% {
+        text-shadow: 0 0 0 #0c0201;
+    }
+
+    50% {
+        text-shadow: -0.1rem -0.1rem 1px #ed2b12,
+        0.1rem -0.1rem 1px #ed2b12,
+        -0.1rem 0.1rem 1px #ed2b12,
+        0.1rem 0.1rem 1px #ed2b12,
+        0 0 15px #630100,
+        0 0 20px #450100;
+    }
+
+    100% {
+        text-shadow: 0 0 0 #0c0201;
+    }
+}
+@keyframes divShadow {
+    0% {
+        box-shadow: 0 0 0 #0c0201;
+    }
+
+    50% {
+        box-shadow: -0.05rem -0.05rem 1px #ed2b12,
+        0.05rem -0.05rem 1px #ed2b12,
+        -0.05rem 0.05rem 1px #ed2b12,
+        0.05rem 0.05rem 1px #ed2b12,
+        0 0 15px #630100,
+        0 0 20px #450100;
+    }
+
+    100% {
+        box-shadow: 0 0 0 #0c0201;
+    }
+}

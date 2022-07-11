@@ -1,0 +1,31 @@
+.music-play-btn{
+    background-color: #0c0201;
+    border: none;
+    color: #1c0502;
+    font-size: 8rem;
+    margin: auto;
+    animation: popShadow 5s infinite;
+    margin-top: -10rem;
+}
+.play-wraaper{
+    text-align: center;
+}
+
+@keyframes popShadow {
+    0% {
+        text-shadow: 0 0 0 #0c0201;
+    }
+
+    50% {
+        text-shadow: -0.1rem -0.1rem 1px #ed2b12,
+        0.1rem -0.1rem 1px #ed2b12,
+        -0.1rem 0.1rem 1px #ed2b12,
+        0.1rem 0.1rem 1px #ed2b12,
+        0 0 15px #0c0201,
+        0 0 20px #0c0201;
+    }
+
+    100% {
+        text-shadow: 0 0 0 #0c0201;
+    }
+}
