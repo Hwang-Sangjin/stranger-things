@@ -9,11 +9,11 @@ import "../css/cardList.css"
 function CardList(){
     return(
         <div className='card-list'>
-            <Card character = {Eleven} />
-            <Card character = {Mike} />
-            <Card character = {Will} />
-            <Card character = {Dustin} />
-            <Card character = {Lucas} />
+            <Card character = {Eleven} characterName="Eleven" />
+            <Card character = {Mike} characterName="Mike"/>
+            <Card character = {Will} characterName="Will"/>
+            <Card character = {Dustin} characterName="Dustin"/>
+            <Card character = {Lucas} characterName="Lucas"/>
         </div>
     )
 }

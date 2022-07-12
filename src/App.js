@@ -1,6 +1,7 @@
 import Header from "./components/header";
 import MusicPlayer from "./components/mucisPlayer";
 import CardList from "./components/cardList";
+import Slider from "./components/slider";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header/>
       <MusicPlayer/>
       <CardList/>
+      <Slider/>
     </div>
   );
 }

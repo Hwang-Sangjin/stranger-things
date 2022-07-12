@@ -1,12 +1,15 @@
 import '../css/card.css'
 
-function Card({character}){
-    
-    console.log(character)
+function Card({character, characterName}){
     return( 
-        <div className='card'>
-            <img src={character}/>
+        <div>
+            
+            <div className='card'>
+                <img src={character}/>
+            </div>
+            <div className='card-name'>{characterName}</div>
         </div>
+        
     )
 }
 
