@@ -2,7 +2,7 @@ import MainTheme from"../static/music/mainTheme2.mp3"
 import React, { useState, useEffect } from "react";
 import "../css/musicPlayBtn.css";
 
-const useAudio = url => {
+const useAudio = () => {
     const [audio] = useState(new Audio(MainTheme));
     const [playing, setPlaying] = useState(false);
   
@@ -10,9 +10,7 @@ const useAudio = url => {
   
     useEffect(() => {
         playing ? audio.play() : audio.pause();
-      },
-      [playing]
-    );
+      },[playing]);
   
     useEffect(() => {
       audio.addEventListener('ended', () => setPlaying(true));
@@ -21,22 +19,22 @@ const useAudio = url => {
       };
     }, []);
   
-    return [playing, toggle];
-  };
+  return [playing, toggle];
+};
   
-  const Player = ({ url }) => {
-    const [playing, toggle] = useAudio(url);
+const Player = ({ url }) => {
+  const [playing, toggle] = useAudio(url);
   
-    return (
-      <div>
-        <div className="play-wraaper">
-            <button className="music-play-btn" onClick={toggle} >
-            {playing ? "Ⅱ": "▷"}
-            </button>
-        </div>
+  return (
+    <div>
+      <div className="play-wraaper">
+          <button className="music-play-btn" onClick={toggle} >
+          {playing ? "Ⅱ": "▷"}
+          </button>
       </div>
-    );
-  };
+    </div>
+  );
+};
   
-  export default Player;
+export default Player;
   
