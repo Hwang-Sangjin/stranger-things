@@ -9,7 +9,6 @@ function App() {
       <Header/>
       <MusicPlayer/>
       <CardList/>
-      <Slider/>
     </div>
   );
 }
