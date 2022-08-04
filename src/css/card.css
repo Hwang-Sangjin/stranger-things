@@ -1,5 +1,5 @@
 .card{
-    height:300px;
+    height:400px;
     display: flex;
     flex: 1;
     object-fit: scale-down;
@@ -12,6 +12,9 @@
     rgba(0,0,0,0.0),
     rgba(0,0,0,0.2)
     );
+}
+.card-img{
+    border-radius: 1rem;
 }
 
 .card:hover {
