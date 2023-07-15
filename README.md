@@ -1,4 +1,4 @@
 
 
-https://github.com/Hwang-Sangjin/stranger-things/assets/52124805/86b11a3d-f4a6-4f80-8978-b900eb431df1
+https://github.com/Hwang-Sangjin/stranger-things/assets/52124805/f01559e7-85f8-4604-abe3-1494cd81152c
 
