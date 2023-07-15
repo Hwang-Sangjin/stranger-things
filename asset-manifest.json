@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d18f3a0.css",
-    "main.js": "/static/js/main.ad6d9014.js",
-    "static/media/mainTheme2.mp3": "/static/media/mainTheme2.cb022bd13f0cdf1b5d8b.mp3",
-    "static/media/hwakins.jpeg": "/static/media/hwakins.88b4325b803d8d186c00.jpeg",
-    "static/media/Mike.jpeg": "/static/media/Mike.4f160490e695cd010cc8.jpeg",
-    "static/media/Will.jpeg": "/static/media/Will.3b008a994fc2f3b2acf8.jpeg",
-    "static/media/Dustin.jpeg": "/static/media/Dustin.62b6d3313430a08de57c.jpeg",
-    "static/media/Eleven.jpeg": "/static/media/Eleven.cfb11a669518a640f7e0.jpeg",
-    "static/media/Lucas.jpeg": "/static/media/Lucas.50f27e8344222b885d85.jpeg",
-    "static/media/benguib.ttf": "/static/media/benguib.f639d0a0f4644bba3e69.ttf",
-    "index.html": "/index.html",
-    "main.0d18f3a0.css.map": "/static/css/main.0d18f3a0.css.map",
-    "main.ad6d9014.js.map": "/static/js/main.ad6d9014.js.map"
+    "main.css": "/stranger-things/static/css/main.0f8f13dc.css",
+    "main.js": "/stranger-things/static/js/main.5d39beee.js",
+    "static/media/mainTheme2.mp3": "/stranger-things/static/media/mainTheme2.cb022bd13f0cdf1b5d8b.mp3",
+    "static/media/hwakins.jpeg": "/stranger-things/static/media/hwakins.88b4325b803d8d186c00.jpeg",
+    "static/media/Mike.jpeg": "/stranger-things/static/media/Mike.4f160490e695cd010cc8.jpeg",
+    "static/media/Will.jpeg": "/stranger-things/static/media/Will.3b008a994fc2f3b2acf8.jpeg",
+    "static/media/Dustin.jpeg": "/stranger-things/static/media/Dustin.62b6d3313430a08de57c.jpeg",
+    "static/media/Eleven.jpeg": "/stranger-things/static/media/Eleven.cfb11a669518a640f7e0.jpeg",
+    "static/media/Lucas.jpeg": "/stranger-things/static/media/Lucas.50f27e8344222b885d85.jpeg",
+    "static/media/benguib.ttf": "/stranger-things/static/media/benguib.f639d0a0f4644bba3e69.ttf",
+    "index.html": "/stranger-things/index.html",
+    "main.0f8f13dc.css.map": "/stranger-things/static/css/main.0f8f13dc.css.map",
+    "main.5d39beee.js.map": "/stranger-things/static/js/main.5d39beee.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d18f3a0.css",
-    "static/js/main.ad6d9014.js"
+    "static/css/main.0f8f13dc.css",
+    "static/js/main.5d39beee.js"
   ]
 }
